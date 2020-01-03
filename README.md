@@ -113,7 +113,7 @@ Compiles the `document` AST, using an optional operationName and compiler option
   - `customJSONSerializer` {boolean, default: false} - Whether to produce also a JSON serializer function using `fast-json-stringify`,
     otherwise the stringify function is just `JSON.stringify`
 
-#### compiledQuery.compiled(root: any, context: any, variables: Maybe<{ [key: string]: any }>)
+#### compiledQuery.query(root: any, context: any, variables: Maybe<{ [key: string]: any }>)
 
 the compiled function that can be called with a root value, a context and the required variables.
 
